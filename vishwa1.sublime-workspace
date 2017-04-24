@@ -1,0 +1,573 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vA",
+				"ValidationError"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"background",
+				"background-attachment"
+			],
+			[
+				"i",
+				"instance"
+			],
+			[
+				"vishwa",
+				"vishwabasak95"
+			],
+			[
+				"margn",
+				"margin-top"
+			],
+			[
+				"subsri",
+				"Subcsribe"
+			],
+			[
+				"margin",
+				"margin-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src_code/smaller/views.py",
+			"settings":
+			{
+				"buffer_size": 1156,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src_code/smaller/forms.py",
+			"settings":
+			{
+				"buffer_size": 830,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src_code/small/urls.py",
+			"settings":
+			{
+				"buffer_size": 960,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{% load staticfiles %}\n<html>\n<head>\n<title>\nVISHWA-SHORTEN\n</title>\n<link href=\"{% static 'bstrap/css/bootstrap.min.css' %}\" rel=\"stylesheet\">\n<link href=\"{% static '/css_files/speedhome.css' %}\" rel=\"stylesheet\">\n\n    <!-- Custom CSS -->\n    <link href=\"{% static '/css_files/scrol.css' %}\" rel=\"stylesheet\">\n\n</head>\n<script type = \"text/javascript\" \n         src = \"{% static '/js_files/jq/jquery.min.js' %}\"></script>\n          <!--{% block content %}\n\n          {% endblock %}-->\n\n</script>\n\n<script src=\"{% static '/js_files/jquery.js' %}\"></script>\n\n    <!-- Bootstrap Core JavaScript -->\n    <script src=\"{% static '/bstrap/js/bootstrap.min.js' %}\"></script>\n\n    <!-- Scrolling Nav JavaScript -->\n    <script src=\"{% static '/js_files/jquery.easing.min.js' %}\"></script>\n    <script src=\"{%static '/js_files/scrol.js'%}\"></script>\n\n<style>\n.parallax{\n\tbackground-image:url(\"{% static '/img_files/shorten1.jpg' %}\");\n\theight:2000px;\n\tbackground-attachment:fixed;\n\tbackground-position:center;\n\tbackground-repeat:no-repeat;\n\tbackground-size:cover;\n}\n</style>\n</head>\n<body>\n<div class=\"parallax\">\n{%block success %}\n\t<nav class=\"navbar navbar-inverse navbar-fixd-top\" id=\"my-navbar\" >\n\t<div class=\"container\" style=\"color:white;\">\n\t\t<div class=\"navbar-header\">\n\t\t\t<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#navbar-collapse\">\n             <span class=\"icon-bar\"></span>\n\t\t\t <span class=\"icon-bar\"></span>\n             <span class=\"icon-bar\"></span>\n             <span class=\"icon-bar\"></span>\n       </button>\n\t   <a href=\"\" class=\"navbar-brand\">VISH.co</a>\n\t  </div>\n\t  <div class=\"collapse navbar-collapse\" id=\"navbar-collapse\">\n\t  <ul class=\"nav navbar-nav\">\n\t     <li><a class=\"page-scroll\" href=\"#aboutus\">About Us</a>\n\t     <li><a class=\"page-scroll\" href=\"#Shorten\">Shorten </a>\n\t    \n\n\t  </ul>\n  </div>\n  </div>\n </nav>\n \n\n <div class=\"jumbotron text-center\">\n   <div class=\"container\">\n   <h2>URL-SHORTENER</h2>\n   <p>Hello people!This is a url-shortening software at your service.So, get going,shorten it out!</p>\n   </div>\n   {% endblock %}\n\n\n\n \n</body>\t \n</html>\n",
+			"file": "src_code/smaller/templates/baseshort.html",
+			"file_size": 2082,
+			"file_write_time": 131369910180403712,
+			"settings":
+			{
+				"buffer_size": 2119,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "<html>"
+			}
+		},
+		{
+			"file": "src_code/smaller/templates/success.html",
+			"settings":
+			{
+				"buffer_size": 272,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "<html>"
+			}
+		},
+		{
+			"file": "src_code/smaller/templates/shorten1.html",
+			"settings":
+			{
+				"buffer_size": 1135,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "{% include 'base.html' %}"
+			}
+		},
+		{
+			"file": "src_code/smaller/models.py",
+			"settings":
+			{
+				"buffer_size": 1477,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src_code/small/settings.py",
+			"settings":
+			{
+				"buffer_size": 3799,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/vishwarupa/Documents/url_shortner/python_3",
+		"/home/vishwarupa/Documents/url_shortner/python_3/include",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/small",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/small/hostconf",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/smaller",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/smaller/management",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/smaller/management/commands",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/smaller/templates"
+	],
+	"file_history":
+	[
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/small/urls.py",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/smaller/views.py",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/smaller/models.py",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/smaller/management/commands/refreshing.py",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/small/hostconf/urls.py",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/small/hostconf/views.py",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/small/hosts.py",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/smaller/__init__.py",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/small/settings.py",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/smaller/admin.py",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/smaller/smallfunc.py",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/small/hostconf/__init__.py",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/smaller/mgmt/cmnds/__init__.py",
+		"/home/vishwarupa/Documents/url_shortner/python_3/src_code/smaller/mgmt/__init__.py",
+		"/home/vishwarupa/Documents/url_shortner/python_3/pip-selfcheck.json",
+		"/home/vishwarupa/Documents/url_shortner/url_p3/src/small/small/settings.py",
+		"/home/vishwarupa/Documents/url_shortner/url_p3/src/manage.py",
+		"/home/vishwarupa/Documents/url_shortner/url_p3/src/url_small/models.py",
+		"/home/vishwarupa/Documents/url_shortner/url_p3/src/shortner/models.py",
+		"/home/vishwarupa/Documents/url_shortner/url_p3/src/shortner/admin.py",
+		"/home/vishwarupa/Documents/url_shortner/url_p3/src/shorten/settings.py",
+		"/home/vishwarupa/Documents/python_code/database_set.py",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/templates/speedhome.html",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/templates/hr1.html",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/templates/contact.html",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/templates/home.html",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/templates/base.html",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/templates/submit.html",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/views.py",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_project/settings.py",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_project/urls.py",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/templates/sppe2.html",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/templates/speed3.html",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/form.py",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/static_app/css_files/bdd.css",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/templates/speed2.html",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/models.py",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/templates/basefile.html",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/static_in_env/static_root/css_files/bdd.css",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/static_app/me.css",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/first_sublime.sublime-project",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/pip-selfcheck.json",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/templates/hr.html",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/static_app",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/admin.py",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/templates/bdd.css",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/first_v_env/src/first_app/templates/new.html",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/djan/try/try/myapp/views.py",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/djan/try/try/myapp/models.py",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/djan/try/try/myapp/admin.py",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/djan/try/try/urls.py",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/djan/try/try/vishwatemps/me.html",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/djan/try/try/templates/home.html",
+		"/media/vishwarupa/5496179F96178122/Python27/Scripts/djan/try/try/firstapp.sublimeproject"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"    \n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src_code/smaller/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								310,
+								310
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src_code/smaller/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								407,
+								407
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src_code/small/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src_code/smaller/templates/baseshort.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2084,
+								2084
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<html>",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src_code/smaller/templates/success.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src_code/smaller/templates/shorten1.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								583,
+								583
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{% include 'base.html' %}",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 456.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src_code/smaller/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								798,
+								798
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src_code/small/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3799,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3770,
+								3770
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1517.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "vishwa1.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 334.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

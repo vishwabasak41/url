@@ -1,0 +1,77 @@
+{% load staticfiles %}
+<html>
+<head>
+<title>
+VISHWA-SHORTEN
+</title>
+<link href="{% static 'bstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+<link href="{% static '/css_files/speedhome.css' %}" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="{% static '/css_files/scrol.css' %}" rel="stylesheet">
+
+</head>
+<script type = "text/javascript" 
+         src = "{% static '/js_files/jq/jquery.min.js' %}"></script>
+          <!--{% block content %}
+
+          {% endblock %}-->
+
+</script>
+
+<script src="{% static '/js_files/jquery.js' %}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static '/bstrap/js/bootstrap.min.js' %}"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="{% static '/js_files/jquery.easing.min.js' %}"></script>
+    <script src="{%static '/js_files/scrol.js'%}"></script>
+
+<style>
+.parallax{
+	background-image:url("{% static '/img_files/shorten1.jpg' %}");
+	height:2000px;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+</style>
+</head>
+<body>
+<div class="parallax">
+	<nav class="navbar navbar-inverse navbar-fixd-top" id="my-navbar" >
+	<div class="container" style="color:white;">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+             <span class="icon-bar"></span>
+			 <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+       </button>
+	   <a href="" class="navbar-brand">VISH.co</a>
+	  </div>
+	  <div class="collapse navbar-collapse" id="navbar-collapse">
+	  <ul class="nav navbar-nav">
+	     <li><a class="page-scroll" href="#aboutus">About Us</a>
+	     <li><a class="page-scroll" href="#Shorten">Shorten </a>
+	    
+
+	  </ul>
+  </div>
+  </div>
+ </nav>
+ 
+
+ <div class="jumbotron text-center">
+   <div class="container">
+   <h2>URL-SHORTENER</h2>
+   <p>Hello people!This is a url-shortening software at your service.So, get going,shorten it out!</p>
+   </div>
+
+
+
+ 
+</body>	 
+</html>

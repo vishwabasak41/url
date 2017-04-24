@@ -1,0 +1,17 @@
+{% load staticfiles %}
+{% include 'baseshort.html' %}
+<html>
+<head>
+<title>
+Success
+</title>
+</head>
+<body>
+
+  <h1>Success</h1>
+  <h3>Old URL:{{objects.url}}</h3>
+  {% if objects.clicks %}<p>No of times this site has been visited previously:{{objects.clicks.count}}</p>{% endif %}
+  <h3><a href="{{objects.newshorturl}}">{{objects.newshorturl}}</a></h3>
+  
+  </body>
+  </html>

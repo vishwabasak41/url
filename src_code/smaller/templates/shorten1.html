@@ -1,0 +1,61 @@
+{% load staticfiles %}
+{% include 'baseshort.html' %}
+<html>
+<head>
+<title>
+VISHWA-SHORTEN
+</title>
+<style>
+.parallax{
+	background-image:url("{% static '/img_files/shorten1.jpg' %}");
+	height:2000px;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+</style>
+</head>
+<body>
+</br>
+	
+	<div class="container-fluid text-center">
+	
+	<section>
+	
+	 
+	 <div class="page-header" id="Shorten">
+	 <h3>SHORTEN!</h3>
+	 <form action="" method="POST" class="form-vertical">{% csrf_token %}
+	 <div class="form-group ">
+	 {{form.as_p}}
+	 
+	 
+	 
+	 <button type="submit" class="btn btn-primary">SUBMIT</button>
+	 </div>
+	 
+	 </form>
+	 </div>
+	 
+	 
+	 </section>
+	 </div>
+	 </br>
+	 </br>
+
+	 </br>
+
+	 <div class="container">
+	 <section>
+	 <div class=page-header id="aboutus">
+	 <h2>About Us:</h2>
+	 <p>
+	 This url-shortening service has been basically created as a first project part so as to improve the quality and level of personal skills by creating set of first apps and so on.
+	 Hope it caters to ur need of shortening any given url.</p>
+	 </div>
+	 </section>
+	 </div>
+</body>
+</html>
+
